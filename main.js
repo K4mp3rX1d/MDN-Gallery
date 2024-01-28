@@ -17,10 +17,12 @@ const altText = [
     ];
 
 /* Looping through images */
-for (const src of fileNames) {
+for (let i = 0; i < fileNames.length; i++) {
     const newImage = document.createElement('img');
-    newImage.setAttribute('src', src);
-    newImage.setAttribute('alt', "");
+    const filepath = "images/" + fileNames[i]
+    newImage.setAttribute('src', filepath);
+    newImage.setAttribute('alt', altText[i]);
+    newImage.addEventListener('click', () => displayedImage.setAttribute('src', filepath));
     thumbBar.appendChild(newImage);
 }
 
