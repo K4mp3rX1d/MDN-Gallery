@@ -9,11 +9,11 @@ const fileNames = ['pic1.jpg', 'pic2.jpg', 'pic3.jpg', 'pic4.jpg', 'pic5.jpg'];
 
 /* Declaring the alternative text for each image file */
 const altText = [
-        "Alternative Text",
-        "Alternative Text",
-        "Alternative Text",
-        "Alternative Text",
-        "Alternative Text",
+        "Closeup of a human eye",
+        "Colorfull clouds in Jupitar",
+        "Some violet blue and white flowers",
+        "A wall painting from Egypt",
+        "A brown colored butterfly on a big green leaf",
     ];
 
 /* Looping through images */
